@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: 38a84f8c3df717740987e448b9ae7c27
+timeCreated: 1525626266
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Area_013
+    100002: //RootNode
+    100004: Body
+    100006: Body_001
+    100008: Body_002
+    100010: Body_003
+    100012: Body_004
+    100014: Body_005
+    100016: Body_006
+    100018: BT_Shark_
+    100020: CTRL_Head
+    100022: CTRL_L_Body
+    100024: CTRL_L_Body_001
+    100026: CTRL_Mid
+    100028: CTRL_Secondary_
+    100030: CTRL_Tail
+    100032: CTRL_Tail_End
+    100034: Head
+    100036: Head_001
+    100038: Master_Bone
+    100040: Point_002
+    100042: Point_003
+    100044: Shark_Armature
+    100046: V1
+    100048: V1_001
+    100050: V1_002
+    100052: V1_003
+    100054: V1_004
+    100056: V1_005
+    100058: V1_006
+    100060: V1_007
+    100062: V1_008
+    100064: V1_009
+    100066: V1_010
+    100068: V1_011
+    100070: V1_012
+    100072: V1_013
+    100074: V1_014
+    100076: V1_015
+    100078: V1_016
+    100080: V1_017
+    100082: V1_018
+    100084: V1_019
+    100086: V1_020
+    100088: V1_021
+    100090: V1_023
+    100092: V1_025
+    400000: Area_013
+    400002: //RootNode
+    400004: Body
+    400006: Body_001
+    400008: Body_002
+    400010: Body_003
+    400012: Body_004
+    400014: Body_005
+    400016: Body_006
+    400018: BT_Shark_
+    400020: CTRL_Head
+    400022: CTRL_L_Body
+    400024: CTRL_L_Body_001
+    400026: CTRL_Mid
+    400028: CTRL_Secondary_
+    400030: CTRL_Tail
+    400032: CTRL_Tail_End
+    400034: Head
+    400036: Head_001
+    400038: Master_Bone
+    400040: Point_002
+    400042: Point_003
+    400044: Shark_Armature
+    400046: V1
+    400048: V1_001
+    400050: V1_002
+    400052: V1_003
+    400054: V1_004
+    400056: V1_005
+    400058: V1_006
+    400060: V1_007
+    400062: V1_008
+    400064: V1_009
+    400066: V1_010
+    400068: V1_011
+    400070: V1_012
+    400072: V1_013
+    400074: V1_014
+    400076: V1_015
+    400078: V1_016
+    400080: V1_017
+    400082: V1_018
+    400084: V1_019
+    400086: V1_020
+    400088: V1_021
+    400090: V1_023
+    400092: V1_025
+    4300000: BT_Shark_
+    7400000: Movement
+    7400002: Action
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: BT_Shark_
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Movement
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 78
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area_013
+        weight: 1
+      - path: BT_Shark_
+        weight: 1
+      - path: Point_002
+        weight: 1
+      - path: Point_003
+        weight: 1
+      - path: Shark_Armature
+        weight: 1
+      - path: Shark_Armature/Master_Bone
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body/Head
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body/Head/Head_001
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011/V1_015
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011/V1_015/V1_010
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011/V1_015/V1_010/V1_014
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011/V1_015/V1_010/V1_014/V1_012
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011/V1_015/V1_010/V1_014/V1_012/V1_016
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011/V1_015/V1_010/V1_014/V1_012/V1_023
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011/V1_021
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_020
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_002
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_002/V1_018
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_002/V1_018/V1_017
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_002/V1_018/V1_017/V1_019
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_002/V1_018/V1_017/V1_025
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_002
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_002/Body_004
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_003
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_003/Body_005
+        weight: 1
+      - path: Shark_Armature/Master_Bone/CTRL_Head
+        weight: 1
+      - path: Shark_Armature/Master_Bone/CTRL_L_Body
+        weight: 1
+      - path: Shark_Armature/Master_Bone/CTRL_L_Body_001
+        weight: 1
+      - path: Shark_Armature/Master_Bone/CTRL_Mid
+        weight: 1
+      - path: Shark_Armature/Master_Bone/CTRL_Secondary_
+        weight: 1
+      - path: Shark_Armature/Master_Bone/CTRL_Tail
+        weight: 1
+      - path: Shark_Armature/Master_Bone/CTRL_Tail_End
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Action
+      takeName: Action
+      firstFrame: -1
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area_013
+        weight: 1
+      - path: BT_Shark_
+        weight: 1
+      - path: Point_002
+        weight: 1
+      - path: Point_003
+        weight: 1
+      - path: Shark_Armature
+        weight: 1
+      - path: Shark_Armature/Master_Bone
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body/Head
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body/Head/Head_001
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011/V1_015
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011/V1_015/V1_010
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011/V1_015/V1_010/V1_014
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011/V1_015/V1_010/V1_014/V1_012
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011/V1_015/V1_010/V1_014/V1_012/V1_016
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011/V1_015/V1_010/V1_014/V1_012/V1_023
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_013/V1_011/V1_021
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_001/V1_020
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_002
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_002/V1_018
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_002/V1_018/V1_017
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_002/V1_018/V1_017/V1_019
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_001/Body_006/V1/V1_006/V1_004/V1_008/V1_003/V1_007/V1_005/V1_009/V1_002/V1_018/V1_017/V1_025
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_002
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_002/Body_004
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_003
+        weight: 1
+      - path: Shark_Armature/Master_Bone/Body_003/Body_005
+        weight: 1
+      - path: Shark_Armature/Master_Bone/CTRL_Head
+        weight: 1
+      - path: Shark_Armature/Master_Bone/CTRL_L_Body
+        weight: 1
+      - path: Shark_Armature/Master_Bone/CTRL_L_Body_001
+        weight: 1
+      - path: Shark_Armature/Master_Bone/CTRL_Mid
+        weight: 1
+      - path: Shark_Armature/Master_Bone/CTRL_Secondary_
+        weight: 1
+      - path: Shark_Armature/Master_Bone/CTRL_Tail
+        weight: 1
+      - path: Shark_Armature/Master_Bone/CTRL_Tail_End
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,597 @@
+fileFormatVersion: 2
+guid: d6a52ae14e892df40b08b2b96e67d812
+timeCreated: 1525656429
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cloth_Surface
+    100002: Cloth_Surface_2
+    100004: Cloth_Surface_3
+    100006: Displacer
+    100008: Displacer_2
+    100010: Displacer_3
+    100012: //RootNode
+    100014: Joint
+    100016: Joint_1
+    100018: Joint_10
+    100020: Joint_10_2
+    100022: Joint_11
+    100024: Joint_11_2
+    100026: Joint_12
+    100028: Joint_13
+    100030: Joint_14
+    100032: Joint_15
+    100034: Joint_16
+    100036: Joint_17
+    100038: Joint_18
+    100040: Joint_19
+    100042: Joint_2
+    100044: Joint_20
+    100046: Joint_21
+    100048: Joint_22
+    100050: Joint_23
+    100052: Joint_24
+    100054: Joint_25
+    100056: Joint_26
+    100058: Joint_27
+    100060: Joint_28
+    100062: Joint_29
+    100064: Joint_2_2
+    100066: Joint_3
+    100068: Joint_30
+    100070: Joint_31
+    100072: Joint_32
+    100074: Joint_33
+    100076: Joint_34
+    100078: Joint_35
+    100080: Joint_36
+    100082: Joint_37
+    100084: Joint_38
+    100086: Joint_39
+    100088: Joint_3_2
+    100090: Joint_4
+    100092: Joint_40
+    100094: Joint_41
+    100096: Joint_42
+    100098: Joint_43
+    100100: Joint_44
+    100102: Joint_45
+    100104: Joint_46
+    100106: Joint_47
+    100108: Joint_48
+    100110: Joint_49
+    100112: Joint_4_2
+    100114: Joint_5
+    100116: Joint_50
+    100118: Joint_51
+    100120: Joint_52
+    100122: Joint_53
+    100124: Joint_54
+    100126: Joint_55
+    100128: Joint_56
+    100130: Joint_57
+    100132: Joint_58
+    100134: Joint_59
+    100136: Joint_5_2
+    100138: Joint_6
+    100140: Joint_60
+    100142: Joint_61
+    100144: Joint_62
+    100146: Joint_63
+    100148: Joint_64
+    100150: Joint_65
+    100152: Joint_66
+    100154: Joint_67
+    100156: Joint_68
+    100158: Joint_69
+    100160: Joint_6_2
+    100162: Joint_7
+    100164: Joint_70
+    100166: Joint_71
+    100168: Joint_72
+    100170: Joint_73
+    100172: Joint_7_2
+    100174: Joint_8
+    100176: Joint_8_2
+    100178: Joint_9
+    100180: Joint_9_2
+    100182: Null
+    100184: Null_1
+    100186: Null_2
+    100188: Null_3
+    100190: Null_4
+    100192: Null_5
+    100194: Null_6
+    100196: Null_7
+    100198: Plane
+    100200: Plane_2
+    100202: Plane_3
+    100204: Plane_4
+    100206: Plane_5
+    100208: Plane_6
+    100210: Skin
+    100212: Spline
+    100214: Spline_2
+    100216: Spline_3
+    100218: Spline_Wrap
+    100220: Spline_Wrap_2
+    100222: Spline_Wrap_3
+    100224: Subdivision_Surface
+    100226: Taper
+    100228: Taper_2
+    100230: Taper_3
+    100232: tentacle
+    100234: tentacle_2
+    100236: tentacle_3
+    100238: tentacle_Instance
+    100240: tentacle_Instance_1
+    400000: Cloth_Surface
+    400002: Cloth_Surface_2
+    400004: Cloth_Surface_3
+    400006: Displacer
+    400008: Displacer_2
+    400010: Displacer_3
+    400012: //RootNode
+    400014: Joint
+    400016: Joint_1
+    400018: Joint_10
+    400020: Joint_10_2
+    400022: Joint_11
+    400024: Joint_11_2
+    400026: Joint_12
+    400028: Joint_13
+    400030: Joint_14
+    400032: Joint_15
+    400034: Joint_16
+    400036: Joint_17
+    400038: Joint_18
+    400040: Joint_19
+    400042: Joint_2
+    400044: Joint_20
+    400046: Joint_21
+    400048: Joint_22
+    400050: Joint_23
+    400052: Joint_24
+    400054: Joint_25
+    400056: Joint_26
+    400058: Joint_27
+    400060: Joint_28
+    400062: Joint_29
+    400064: Joint_2_2
+    400066: Joint_3
+    400068: Joint_30
+    400070: Joint_31
+    400072: Joint_32
+    400074: Joint_33
+    400076: Joint_34
+    400078: Joint_35
+    400080: Joint_36
+    400082: Joint_37
+    400084: Joint_38
+    400086: Joint_39
+    400088: Joint_3_2
+    400090: Joint_4
+    400092: Joint_40
+    400094: Joint_41
+    400096: Joint_42
+    400098: Joint_43
+    400100: Joint_44
+    400102: Joint_45
+    400104: Joint_46
+    400106: Joint_47
+    400108: Joint_48
+    400110: Joint_49
+    400112: Joint_4_2
+    400114: Joint_5
+    400116: Joint_50
+    400118: Joint_51
+    400120: Joint_52
+    400122: Joint_53
+    400124: Joint_54
+    400126: Joint_55
+    400128: Joint_56
+    400130: Joint_57
+    400132: Joint_58
+    400134: Joint_59
+    400136: Joint_5_2
+    400138: Joint_6
+    400140: Joint_60
+    400142: Joint_61
+    400144: Joint_62
+    400146: Joint_63
+    400148: Joint_64
+    400150: Joint_65
+    400152: Joint_66
+    400154: Joint_67
+    400156: Joint_68
+    400158: Joint_69
+    400160: Joint_6_2
+    400162: Joint_7
+    400164: Joint_70
+    400166: Joint_71
+    400168: Joint_72
+    400170: Joint_73
+    400172: Joint_7_2
+    400174: Joint_8
+    400176: Joint_8_2
+    400178: Joint_9
+    400180: Joint_9_2
+    400182: Null
+    400184: Null_1
+    400186: Null_2
+    400188: Null_3
+    400190: Null_4
+    400192: Null_5
+    400194: Null_6
+    400196: Null_7
+    400198: Plane
+    400200: Plane_2
+    400202: Plane_3
+    400204: Plane_4
+    400206: Plane_5
+    400208: Plane_6
+    400210: Skin
+    400212: Spline
+    400214: Spline_2
+    400216: Spline_3
+    400218: Spline_Wrap
+    400220: Spline_Wrap_2
+    400222: Spline_Wrap_3
+    400224: Subdivision_Surface
+    400226: Taper
+    400228: Taper_2
+    400230: Taper_3
+    400232: tentacle
+    400234: tentacle_2
+    400236: tentacle_3
+    400238: tentacle_Instance
+    400240: tentacle_Instance_1
+    2300000: Plane
+    2300002: Plane_3
+    2300004: Plane_5
+    3300000: Plane
+    3300002: Plane_3
+    3300004: Plane_5
+    4300000: Subdivision_Surface
+    4300002: Plane
+    4300004: Plane_3
+    4300006: Plane_5
+    7400000: Bounce
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Subdivision_Surface
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bounce
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Null
+        weight: 1
+      - path: Null/tentacle_3
+        weight: 1
+      - path: Null/tentacle_3/Cloth_Surface_3
+        weight: 1
+      - path: Null/tentacle_3/Cloth_Surface_3/Null_6
+        weight: 1
+      - path: Null/tentacle_3/Cloth_Surface_3/Null_6/Plane_5
+        weight: 1
+      - path: Null/tentacle_3/Cloth_Surface_3/Null_7
+        weight: 1
+      - path: Null/tentacle_3/Cloth_Surface_3/Null_7/Plane_6
+        weight: 1
+      - path: Null/tentacle_3/Cloth_Surface_3/Null_7/Plane_6/Displacer_3
+        weight: 1
+      - path: Null/tentacle_3/Cloth_Surface_3/Null_7/Plane_6/Spline_Wrap_3
+        weight: 1
+      - path: Null/tentacle_3/Cloth_Surface_3/Null_7/Plane_6/Taper_3
+        weight: 1
+      - path: Null/tentacle_3/Spline_3
+        weight: 1
+      - path: Null/tentacle_Instance
+        weight: 1
+      - path: Null/tentacle_Instance/tentacle_2
+        weight: 1
+      - path: Null/tentacle_Instance/tentacle_2/Cloth_Surface_2
+        weight: 1
+      - path: Null/tentacle_Instance/tentacle_2/Cloth_Surface_2/Null_4
+        weight: 1
+      - path: Null/tentacle_Instance/tentacle_2/Cloth_Surface_2/Null_4/Plane_3
+        weight: 1
+      - path: Null/tentacle_Instance/tentacle_2/Cloth_Surface_2/Null_5
+        weight: 1
+      - path: Null/tentacle_Instance/tentacle_2/Cloth_Surface_2/Null_5/Plane_4
+        weight: 1
+      - path: Null/tentacle_Instance/tentacle_2/Cloth_Surface_2/Null_5/Plane_4/Displacer_2
+        weight: 1
+      - path: Null/tentacle_Instance/tentacle_2/Cloth_Surface_2/Null_5/Plane_4/Spline_Wrap_2
+        weight: 1
+      - path: Null/tentacle_Instance/tentacle_2/Cloth_Surface_2/Null_5/Plane_4/Taper_2
+        weight: 1
+      - path: Null/tentacle_Instance/tentacle_2/Spline_2
+        weight: 1
+      - path: Null/tentacle_Instance_1
+        weight: 1
+      - path: Null/tentacle_Instance_1/tentacle
+        weight: 1
+      - path: Null/tentacle_Instance_1/tentacle/Cloth_Surface
+        weight: 1
+      - path: Null/tentacle_Instance_1/tentacle/Cloth_Surface/Null_2
+        weight: 1
+      - path: Null/tentacle_Instance_1/tentacle/Cloth_Surface/Null_2/Plane
+        weight: 1
+      - path: Null/tentacle_Instance_1/tentacle/Cloth_Surface/Null_3
+        weight: 1
+      - path: Null/tentacle_Instance_1/tentacle/Cloth_Surface/Null_3/Plane_2
+        weight: 1
+      - path: Null/tentacle_Instance_1/tentacle/Cloth_Surface/Null_3/Plane_2/Displacer
+        weight: 1
+      - path: Null/tentacle_Instance_1/tentacle/Cloth_Surface/Null_3/Plane_2/Spline_Wrap
+        weight: 1
+      - path: Null/tentacle_Instance_1/tentacle/Cloth_Surface/Null_3/Plane_2/Taper
+        weight: 1
+      - path: Null/tentacle_Instance_1/tentacle/Spline
+        weight: 1
+      - path: Null_1
+        weight: 1
+      - path: Null_1/Joint_1
+        weight: 1
+      - path: Null_1/Joint_1/Joint_61
+        weight: 1
+      - path: Null_1/Joint_1/Joint_61/Joint_62
+        weight: 1
+      - path: Null_1/Joint_1/Joint_61/Joint_62/Joint_63
+        weight: 1
+      - path: Null_1/Joint_1/Joint_61/Joint_62/Joint_63/Joint_64
+        weight: 1
+      - path: Null_1/Joint_1/Joint_61/Joint_62/Joint_63/Joint_64/Joint_65
+        weight: 1
+      - path: Null_1/Joint_1/Joint_61/Joint_62/Joint_63/Joint_64/Joint_65/Joint_66
+        weight: 1
+      - path: Null_1/Joint_2_2
+        weight: 1
+      - path: Null_1/Joint_2_2/Joint_55
+        weight: 1
+      - path: Null_1/Joint_2_2/Joint_55/Joint_56
+        weight: 1
+      - path: Null_1/Joint_2_2/Joint_55/Joint_56/Joint_57
+        weight: 1
+      - path: Null_1/Joint_2_2/Joint_55/Joint_56/Joint_57/Joint_58
+        weight: 1
+      - path: Null_1/Joint_2_2/Joint_55/Joint_56/Joint_57/Joint_58/Joint_59
+        weight: 1
+      - path: Null_1/Joint_2_2/Joint_55/Joint_56/Joint_57/Joint_58/Joint_59/Joint_60
+        weight: 1
+      - path: Null_1/Joint_3_2
+        weight: 1
+      - path: Null_1/Joint_3_2/Joint_49
+        weight: 1
+      - path: Null_1/Joint_3_2/Joint_49/Joint_50
+        weight: 1
+      - path: Null_1/Joint_3_2/Joint_49/Joint_50/Joint_51
+        weight: 1
+      - path: Null_1/Joint_3_2/Joint_49/Joint_50/Joint_51/Joint_52
+        weight: 1
+      - path: Null_1/Joint_3_2/Joint_49/Joint_50/Joint_51/Joint_52/Joint_53
+        weight: 1
+      - path: Null_1/Joint_3_2/Joint_49/Joint_50/Joint_51/Joint_52/Joint_53/Joint_54
+        weight: 1
+      - path: Null_1/Joint_4_2
+        weight: 1
+      - path: Null_1/Joint_4_2/Joint_43
+        weight: 1
+      - path: Null_1/Joint_4_2/Joint_43/Joint_44
+        weight: 1
+      - path: Null_1/Joint_4_2/Joint_43/Joint_44/Joint_45
+        weight: 1
+      - path: Null_1/Joint_4_2/Joint_43/Joint_44/Joint_45/Joint_46
+        weight: 1
+      - path: Null_1/Joint_4_2/Joint_43/Joint_44/Joint_45/Joint_46/Joint_47
+        weight: 1
+      - path: Null_1/Joint_4_2/Joint_43/Joint_44/Joint_45/Joint_46/Joint_47/Joint_48
+        weight: 1
+      - path: Null_1/Joint_5_2
+        weight: 1
+      - path: Null_1/Joint_5_2/Joint_37
+        weight: 1
+      - path: Null_1/Joint_5_2/Joint_37/Joint_38
+        weight: 1
+      - path: Null_1/Joint_5_2/Joint_37/Joint_38/Joint_39
+        weight: 1
+      - path: Null_1/Joint_5_2/Joint_37/Joint_38/Joint_39/Joint_40
+        weight: 1
+      - path: Null_1/Joint_5_2/Joint_37/Joint_38/Joint_39/Joint_40/Joint_41
+        weight: 1
+      - path: Null_1/Joint_5_2/Joint_37/Joint_38/Joint_39/Joint_40/Joint_41/Joint_42
+        weight: 1
+      - path: Null_1/Joint_6_2
+        weight: 1
+      - path: Null_1/Joint_6_2/Joint_31
+        weight: 1
+      - path: Null_1/Joint_6_2/Joint_31/Joint_32
+        weight: 1
+      - path: Null_1/Joint_6_2/Joint_31/Joint_32/Joint_33
+        weight: 1
+      - path: Null_1/Joint_6_2/Joint_31/Joint_32/Joint_33/Joint_34
+        weight: 1
+      - path: Null_1/Joint_6_2/Joint_31/Joint_32/Joint_33/Joint_34/Joint_35
+        weight: 1
+      - path: Null_1/Joint_6_2/Joint_31/Joint_32/Joint_33/Joint_34/Joint_35/Joint_36
+        weight: 1
+      - path: Null_1/Joint_7_2
+        weight: 1
+      - path: Null_1/Joint_7_2/Joint_25
+        weight: 1
+      - path: Null_1/Joint_7_2/Joint_25/Joint_26
+        weight: 1
+      - path: Null_1/Joint_7_2/Joint_25/Joint_26/Joint_27
+        weight: 1
+      - path: Null_1/Joint_7_2/Joint_25/Joint_26/Joint_27/Joint_28
+        weight: 1
+      - path: Null_1/Joint_7_2/Joint_25/Joint_26/Joint_27/Joint_28/Joint_29
+        weight: 1
+      - path: Null_1/Joint_7_2/Joint_25/Joint_26/Joint_27/Joint_28/Joint_29/Joint_30
+        weight: 1
+      - path: Null_1/Joint_8_2
+        weight: 1
+      - path: Null_1/Joint_8_2/Joint_19
+        weight: 1
+      - path: Null_1/Joint_8_2/Joint_19/Joint_20
+        weight: 1
+      - path: Null_1/Joint_8_2/Joint_19/Joint_20/Joint_21
+        weight: 1
+      - path: Null_1/Joint_8_2/Joint_19/Joint_20/Joint_21/Joint_22
+        weight: 1
+      - path: Null_1/Joint_8_2/Joint_19/Joint_20/Joint_21/Joint_22/Joint_23
+        weight: 1
+      - path: Null_1/Joint_8_2/Joint_19/Joint_20/Joint_21/Joint_22/Joint_23/Joint_24
+        weight: 1
+      - path: Null_1/Joint_9_2
+        weight: 1
+      - path: Null_1/Joint_9_2/Joint_13
+        weight: 1
+      - path: Null_1/Joint_9_2/Joint_13/Joint_14
+        weight: 1
+      - path: Null_1/Joint_9_2/Joint_13/Joint_14/Joint_15
+        weight: 1
+      - path: Null_1/Joint_9_2/Joint_13/Joint_14/Joint_15/Joint_16
+        weight: 1
+      - path: Null_1/Joint_9_2/Joint_13/Joint_14/Joint_15/Joint_16/Joint_17
+        weight: 1
+      - path: Null_1/Joint_9_2/Joint_13/Joint_14/Joint_15/Joint_16/Joint_17/Joint_18
+        weight: 1
+      - path: Null_1/Joint_10
+        weight: 1
+      - path: Null_1/Joint_10/Joint_7
+        weight: 1
+      - path: Null_1/Joint_10/Joint_7/Joint_8
+        weight: 1
+      - path: Null_1/Joint_10/Joint_7/Joint_8/Joint_9
+        weight: 1
+      - path: Null_1/Joint_10/Joint_7/Joint_8/Joint_9/Joint_10_2
+        weight: 1
+      - path: Null_1/Joint_10/Joint_7/Joint_8/Joint_9/Joint_10_2/Joint_11_2
+        weight: 1
+      - path: Null_1/Joint_10/Joint_7/Joint_8/Joint_9/Joint_10_2/Joint_11_2/Joint_12
+        weight: 1
+      - path: Null_1/Joint_11
+        weight: 1
+      - path: Null_1/Joint_11/Joint
+        weight: 1
+      - path: Null_1/Joint_11/Joint/Joint_2
+        weight: 1
+      - path: Null_1/Joint_11/Joint/Joint_2/Joint_3
+        weight: 1
+      - path: Null_1/Joint_11/Joint/Joint_2/Joint_3/Joint_4
+        weight: 1
+      - path: Null_1/Joint_11/Joint/Joint_2/Joint_3/Joint_4/Joint_5
+        weight: 1
+      - path: Null_1/Joint_11/Joint/Joint_2/Joint_3/Joint_4/Joint_5/Joint_6
+        weight: 1
+      - path: Null_1/Joint_67
+        weight: 1
+      - path: Null_1/Joint_67/Joint_68
+        weight: 1
+      - path: Null_1/Joint_67/Joint_68/Joint_69
+        weight: 1
+      - path: Null_1/Joint_67/Joint_68/Joint_69/Joint_70
+        weight: 1
+      - path: Null_1/Joint_67/Joint_68/Joint_69/Joint_70/Joint_71
+        weight: 1
+      - path: Null_1/Joint_67/Joint_68/Joint_69/Joint_70/Joint_71/Joint_72
+        weight: 1
+      - path: Null_1/Joint_67/Joint_68/Joint_69/Joint_70/Joint_71/Joint_72/Joint_73
+        weight: 1
+      - path: Subdivision_Surface
+        weight: 1
+      - path: Subdivision_Surface/Skin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
